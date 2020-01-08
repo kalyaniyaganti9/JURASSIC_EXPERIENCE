@@ -22,6 +22,7 @@ describe('Login Tests', function () {
 		before(async function(){
 			response = await agent.post('/login')
 				.send({"email": "sevennight1836@live.com",	"password": "o|0$BmZ5"});
+			this.timeout(10000)
 		});
 		it('Login Good', function(){
 			assert.equal(response.status, 200);
