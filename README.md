@@ -17,11 +17,12 @@ This Multi user Web App built using React and express framework which allows use
     Now install the parcel-bundler after upgrade and run devproxy.
 6. Now launch the app with  Link: [URL for React APP](http://localhost:1234/) from chrome or firefox.
 #### Functionality
-* Only Admin can add and delete the tours in the app
-* An user can login using the data from userTours.json to check the exiting tours schedule the visit
+* Guest Users can visit home and about page.
+* To schedule a tour he/she can login with details from userTours.json file. Now this is customer role with this each user can schedule of his own interest.
+* Only Admin can add and delete the coming tours in the app via tour management.
 
 #### Test
-Tests are written for login and tours using chai assertions and mocha framework.
-* To run the tests user can execute the below commands
+Tests are written for login, tour management using chai assertions and mocha framework.
+* To run the tests user can execute the below commands from tourserver directory.
     * Command : **mocha test/tourTest**
     * Command : **mocha test/loginTest**
