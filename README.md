@@ -10,7 +10,7 @@ A Multi user Web App using React and express framework which allows users to sch
 5. To launch the react app run this command form ReactTour directory from command line.
     * Command : **node DevProxy**
 6. Now launch the app with  Link: [URL for React APP](http://localhost:1234/) from chrome or firefox.
-####Functionality
+#### Functionality
 * Only Admin can add and delete the tours in the app
 * An user can login using the data from userTours.json to check the exiting tours schedule the visit
 
