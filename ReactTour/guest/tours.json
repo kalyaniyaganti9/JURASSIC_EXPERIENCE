@@ -1,0 +1,21 @@
+{
+	"tours":[	
+		{
+			name: "T-Rex Dinosaur",
+			date: "October 20 2019"
+		}, 
+		{
+			name: "Pilot-glassbox",
+			date: "October 25 2019"
+		},
+		{
+			name: "Jurassic-World",
+			date: "October 30 2019"
+		},
+		{
+			name: "Jurassic-fest",
+			date: "November 10 2019 to December 31 2019"
+		} 
+	]
+}
+
