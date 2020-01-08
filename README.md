@@ -1,6 +1,7 @@
 # JURASSIC_EXPERIENCE
 A React web app which allows users to schedule their tour visits in the fictional Jurassic world.
-A Multi user Web App using React and express framework which allows users to schedule their tours in Jurassic World. It implements bcryptjs, a hashing algorithm for user authentication, Express-session for session implementation. Used libraries like NeDB, a javascript database to handle JSON data and Mocha test framework for testing the application during the development.
+
+This Multi user Web App built using React and express framework which allows users to schedule their tours in Jurassic World. It implements bcryptjs, a hashing algorithm for user authentication and Express-session for session implementation. Used libraries like NeDB, a javascript database to handle JSON data and Mocha test framework for testing the application during the development.
 ### To Launch this app one has to follow the below steps
 1. Install Nodejs
 2. Install git
@@ -11,7 +12,7 @@ A Multi user Web App using React and express framework which allows users to sch
 5. To launch the react app run this command form ReactTour directory from command line.
     * Command : **node DevProxy**
     * Command : **npm install -g parcel-bundler**
-    If any warning to like  Please, upgrade your dependencies to the actual version of core-js@3 displays execute the command below.
+    If warning like  - Please, upgrade your dependencies to the actual version of core-js@3 displays execute the command below.
     * Command : **npm install --save core-js@^3**
     Now install the parcel-bundler after upgrade and run devproxy.
 6. Now launch the app with  Link: [URL for React APP](http://localhost:1234/) from chrome or firefox.
