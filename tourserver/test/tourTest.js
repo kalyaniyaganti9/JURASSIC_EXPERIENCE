@@ -63,6 +63,7 @@ describe('Add Tour Tests', function () {
 	let adminlogin;
 	let add;
 	let customerlogin;
+	this.timeout(10000)
 	before(async function(){
 		dbinit = require('../tourDBInit');
 		//response = await request(app).post('/tours');
